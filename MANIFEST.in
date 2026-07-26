@@ -1,0 +1,15 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+recursive-include local_bench *.css
+recursive-include local_bench *.csv
+recursive-include local_bench *.html
+recursive-include local_bench *.ico
+recursive-include local_bench *.js
+recursive-include local_bench *.json
+recursive-include local_bench *.md
+recursive-include local_bench *.po
+recursive-include local_bench *.py
+recursive-include local_bench *.svg
+recursive-include local_bench *.txt
+recursive-exclude local_bench *.pyc

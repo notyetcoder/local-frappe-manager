@@ -1,0 +1,4 @@
+# local_bench runs entirely on what Frappe already provides
+# (subprocess, frappe.enqueue, frappe.publish_realtime).
+# No extra dependencies yet. If the live GitHub gallery pull is added
+# later, `requests` will go here (Frappe already depends on it anyway).
